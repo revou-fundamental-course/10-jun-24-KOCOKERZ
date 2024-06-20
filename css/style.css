@@ -1,0 +1,101 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.intro-text {
+    text-align: center;
+    font-size: 16px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 970px;
+    border: 2px solid #ccc;
+}
+
+.temperature-container, .result-container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+}
+
+.temperature-container header, .result-container header, .conversion-info header {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.temperature-container input, .temperature-container select, .result-container textarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    text-align: center;
+}
+
+.button-container button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007BFF;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.button-container button:hover {
+    background-color: #0056b3;
+}
+
+textarea {
+    resize: none;
+    background-color: #f8f8f8;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-family: math;
+    font-size: 16px;
+    height: 100px;
+}
+
+.subject-info {
+    font-size: 18px;
+    font-style: italic;
+    font-family: math;
+}
+
+.subject-info2 {
+    font-size: 18px;
+    font-family: math;
+}
+
+.conversion-info header {
+    text-align: center;
+}
+
+.conversion-info {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 970px;
+}
